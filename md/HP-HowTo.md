@@ -156,7 +156,7 @@ Here's a quick video of how \*the Sausage Machine\* turns a Word
 document into an epub:
 
 <video poster="./lib/png.png">
-    <source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"/>
+    <source src="./lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"/>
 </video>
 
 Using *the Sausage Machine\* platform 
@@ -280,6 +280,7 @@ the markdown file and mostly through the css stylesheet.
 
 PublishingLab template file with test cover.
 
+<div class="infobox">
 ### technical considerations
 
 To create and distribute your epub you will need at least a basic
@@ -287,6 +288,7 @@ knowledge of css and some knowledge of the specifications of the IDPF to
 validate your book. Test the epub on different ereader devices to know
 which features are supported. Note: The control you have with css on
 websites is much more limited in eBooks as of this writing (2016).
+</div>
 
 ## How
 
@@ -514,12 +516,13 @@ Format: Online reading, epub3 & Print on Demand (POD)
 
 <div class="difficulty-level expert"></div>
 
-
+<div class="infobox">
 ### technical considerations
 
 The UNStudio App project was built as a WebApp and then bundled as a native App for IOS with the client specifying that it be designed for one platform: the iPad.
 
 Navigating TOD was built with html, javascript and bootstrap using plugins for added functions like highlighting or adding dates to citation.
+</div>
 
 ## How: iPad App & online reading
 
