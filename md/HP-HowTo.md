@@ -16,8 +16,9 @@ Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publish
 Rights: CC BY-NC 4.0
 ...
 
-
+<div class="pagetitle">
 # How to: Design Solutions for Digital Publishing
+</div>
 
 ## Introduction
 
@@ -30,6 +31,8 @@ This How To shows you how to create an epub - it is part of the Hybrid Publishin
 You will find instructions and a template for making an epub3, how to use css styles to modify your layout, and learn about the pros & cons of a fixed
 layout epub. Finally, we look at what some other current options are for
 digital publishing.
+
+Each how to will indicate a difficulty level: easy, moderate or expert to show you if you can do it yourself or if you need expert support.
 
 Sections:
 
@@ -71,7 +74,7 @@ this eliminates the need for command line and simplifies the setup on
 GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.
 
-
+<div class="infobox">
 ### Technical considerations
 
 Before you begin you will need:
@@ -94,7 +97,7 @@ If you are using Method 1, you will also need to:
 on Mac or go to the Start menu on Windows and type cmd into search/run -
 more <a
 href="http://www.computerhope.com/issues/chusedos.htm">here</a>)
-
+</div>
 
 ## How: Instructions for Creating an epub
 
