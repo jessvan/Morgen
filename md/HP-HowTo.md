@@ -16,6 +16,7 @@ Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publish
 Rights: CC BY-NC 4.0
 ...
 
+
 <div class="pagetitle">
 # How to
 </div>
@@ -374,8 +375,8 @@ The format doesn't scale for mobile reading.
 
 <blockquote>
 
-"I think they sound like a pointless step backward – a filetype with all
-the rigidity of PDF but with none of the cross-platform support." - Ben
+I think they sound like a pointless step backward – a filetype with all
+the rigidity of PDF but with none of the cross-platform support. - Ben
 Hollingum
 </blockquote>
 
@@ -589,12 +590,12 @@ The International Digital Publishing Forum (IDPF) brought out a specification fo
 Ideally, artist books could incorporate the interactivity made possible with epub3 with custom layouts which really reflect the unique visual quality of the work. It's not necessarily about copying the beautiful print spreads of art publishers, or following the highly-customised methods of an App, but looking for ways digital publishing visual books can be improved with the evolving tools avaliable.
 
 <blockquote>
-"With a proper API (an application programming interface, which allows
+With a proper API (an application programming interface, which allows
 one authorised application to read and manipulate data in another),
 entrepreneurs outside of Amazon or Apple could step in and offer more
 beautiful, efficient, or innovative reading containers for our books,
 leaving the bigger companies to do what they do best: payments and
-infrastructure." - Craig Mod
+infrastructure. - Craig Mod
 </blockquote>
 
 The PublishingLab is looking for, and creating new ways of publishing digital books. Please <a href="http://www.publishinglab.nl/contact/">contact</a> us if you have a project to share or want to partner with us.
