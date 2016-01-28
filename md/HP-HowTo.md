@@ -247,7 +247,14 @@ your own epub.)
 ### Example
 
 The workflow is a compilation of efforts from the Hybrid Publishing Toolkit, Andre Castro, Michael Murtaugh and others from the
-DPT collective.
+DPT collective. This video offers a brief overview from manuscript to multiple outputs.
+
+
+<video width="100%" height="80%" controls="controls"
+autoplay="autoplay" loop="loop">
+
+<source src="lib/PublishingLab-Hybrid-Workflow.mp4" type="video/mp4" />
+
 
 example: <a
 href="http://networkcultures.org/blog/publication/from-print-to-ebooks-a-hybrid-publishing-toolkit-for-the-arts/">From
