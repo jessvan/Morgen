@@ -8,17 +8,19 @@ Anthology item: article
 Item-id: unique no.
 Article-title: title of the article
 Article-status: accepted
-Author: name(s) of author(s)
+Author: Jess van Zyl
 Author-email:   corresponding address
-Author-bio:  about the author
-Abstract:   short description of the article (100 words)
+Author-bio:  Jess van Zyl is a researcher for the PublishingLab, 2015-16.
+Abstract:   This How To is for small publishers and writers to learn to create and style ebooks in epub format.
 Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publishing, styles, css, markdown, design, ebooks, epub3, GitHub
 Rights: CC BY-NC 4.0
 ...
 
 <div class="pagetitle">
-# How to: Design Solutions for Digital Publishing
+# How to
 </div>
+
+# How to: Design Solutions for Digital Publishing
 
 ## Introduction
 
