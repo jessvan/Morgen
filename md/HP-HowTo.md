@@ -155,12 +155,8 @@ If you get an error message, there is a useful resource section <a href="http://
 Here's a quick video of how \*the Sausage Machine\* turns a Word
 document into an epub:
 
-<video width="100%" height="80%" controls="controls"
-autoplay="false" loop="loop">
-
-<source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"
-/>
-
+<video poster="./lib/png.png">
+    <source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"/>
 </video>
 
 Using *the Sausage Machine\* platform 
