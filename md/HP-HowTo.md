@@ -41,21 +41,22 @@ Sections:
 
 4\. Other digital publishing options
 
+<div class="infobox">
 ### Who is this How To for?
+Small publishers, arts publishers, designers and developers creating
+digital publications.
+</div>
 
-Small publishers, arts publishers, writers, self-publishers, designers and developers creating digital publications.
-
+<div class="linkbox">
 ### Colophon
-
-**Author:** Jess van Zyl
-
-**Editorial support:** Miriam Rasch
-
+**Author:** Jess van Zyl  
+**Editorial support:** Miriam Rasch  
 **Design:** Lasse van den Bosch & Marlon Harder (<a
-href="http://template01.info">Template</a>)
-
+href="http://template01.info">Template</a>)  
 **With thanks to:** Hackers&Designers, Institute of Network Cultures, Torque, Silvio Lorusso,
 Andre Castro, Gottfried Haider, Michael Murtaugh and the DPT collective.
+</div>
+
 
 # How to create an epub 1/4
 
