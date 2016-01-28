@@ -1,4 +1,4 @@
----
+Sausage-Machine-Demo-epub.mp4---
 Pr-id: PublishingLab
 P-id: PublishingLab How To
 A-id: 10
@@ -34,7 +34,9 @@ You will find instructions and a template for making an epub3, how to use css st
 layout epub. Finally, we look at what some other current options are for
 digital publishing.
 
-Each how to will indicate a difficulty level: easy, moderate or expert to show you if you can do it yourself or if you need expert support.
+### Difficulty level
+
+Each How To will indicate a difficulty level: easy, moderate or expert to show you if you can do it yourself or if you need expert support.
 
 Sections:
 
@@ -152,11 +154,12 @@ If you get an error message, there is a useful resource section <a href="http://
 
 ### Method 2
 
-Here's a quick video of how \*the Sausage Machine\* turns a Word
+Here's a quick video of how *the Sausage Machine* turns a Word
 document into an epub:
 
-<video poster="./lib/png.png">
-    <source src="./lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"/>
+<video width="100%" height="80%" controls="controls"
+autoplay="autoplay" loop="loop">
+    <source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"/>
 </video>
 
 Using *the Sausage Machine\* platform 
