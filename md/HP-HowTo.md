@@ -1,4 +1,21 @@
-<div class="pagetitle">How To Standard Title</div>
+---
+Pr-id: PublishingLab
+P-id: PublishingLab How To
+A-id: 10
+Type: article
+Book-type: anthology
+Anthology item: article
+Item-id: unique no.
+Article-title: title of the article
+Article-status: accepted
+Author: name(s) of author(s)
+Author-email:   corresponding address
+Author-bio:  about the author
+Abstract:   short description of the article (100 words)
+Keywords:   epub, pandoc, conversion, hybrid, workflow, publishing, arts publishing, styles, css, markdown, design, ebooks, epub3, GitHub
+Rights: CC BY-NC 4.0
+...
+
 
 # How to: Design Solutions for Digital Publishing
 
@@ -8,32 +25,25 @@ What are the visual options for artistic digital publications?
 
 ### What can you find in this How To?
 
-This site shows you how to create an epub - it is part of the Hybrid Publishing Workflow for creating multiple publications from one source file (including eBooks as ePub3 files).
+This How To shows you how to create an epub - it is part of the Hybrid Publishing Workflow for creating multiple publications from one source file. For more information about the Workflow and creating output for print files, visit the PublishingLab <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">site</a>.
 
-For more information about the Workflow and creating output for print files, visit the PublishingLab <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">site</a>.
-
-You will find instructions & a template for making an ePub3, use css
-styles to modify your layout, and learn about the pros & cons of a fixed
-layout ePub. Finally, we look at what some other current options are for
+You will find instructions and a template for making an epub3, how to use css styles to modify your layout, and learn about the pros & cons of a fixed
+layout epub. Finally, we look at what some other current options are for
 digital publishing.
 
 Sections:
 
-1\. How to create an ePub  
-2\. Styling ePubs  
-3\. Fixed layout ePubs  
-4\. Other digital publishing options
+1\. How to create an epub
 
-<div class="infobox">
+2\. Styling epubs
+
+3\. Fixed layout epubs
+
+4\. Other digital publishing options
 
 ### Who is this How To for?
 
-Small publishers, arts publishers, designers and developers creating
-digital publications.
-
-</div>
-
-<div class="linkbox">
+Small publishers, arts publishers, writers, self-publishers, designers and developers creating digital publications.
 
 ### Colophon
 
@@ -47,17 +57,15 @@ href="http://template01.info">Template</a>)
 **With thanks to:** Hackers&Designers, Institute of Network Cultures, Torque, Silvio Lorusso,
 Andre Castro, Gottfried Haider, Michael Murtaugh and the DPT collective.
 
-</div>
-
-# How to create an ePub
+# How to create an epub 1/4
 
 ## Intro
 
-The Hybrid Publishing Toolkit provides two methods of creating an ePub.
+The Hybrid Publishing Toolkit provides two methods of creating an epub.
 
-**Method 1** builds on chapter 6 of the Hybrid Publishing Toolkit book, it relies on a makefile and using the command line.
+**Method 1** builds on chapter 6 of the <a href="http://www.publishinglab.nl/blog/publication/from-print-to-ebooks-a-hybrid-publishing-toolkit-for-the-arts/">Hybrid Publishing Toolkit</a> book, it relies on a makefile and using the command line.
 
-**Method 2:** The latest option is to use our platform created by Gottfried Haider,
+**Method 2:** is to use our platform called The Sausage Machine,
 this eliminates the need for command line and simplifies the setup on
 GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.
@@ -70,7 +78,7 @@ Before you begin you will need:
 - your text (in Word .docx format) and image files (jpg
 or png).
 
-- <a href="https://desktop.github.com/">GitHub Desktop</a> (for working collaboratively)
+- <a href="https://desktop.github.com/">GitHub Desktop</a> program (for working collaboratively)
 
 - <a href="http://macdown.uranusjr.com/">MacDown</a> or XCode (to edit your sourcefile which is written in markdown)
 
@@ -87,7 +95,7 @@ more <a
 href="http://www.computerhope.com/issues/chusedos.htm">here</a>)
 
 
-## How: Instructions for Creating an ePub
+## How: Instructions for Creating an epub
 
 ### Method 1
 
@@ -97,37 +105,39 @@ href="https://github.com/DigitalPublishingToolkit/workshop-going\_hybrid/wiki">h
 
 Below are some simplified steps:
 
-Step 1
+Step 1. 
 Once you've installed the programs listed above, visit the PublishingLab <a href="https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources">Resources</a> page on GitHub.
 
-Step 2
+Step 2. 
 Clone or save this resource repository to your computer
 It will include several folders as well as the makefile.
 
-Step 3
-Rename this folder to your book title
+![](lib/resources-folder.png)
 
-Step 4
+Step 3. 
+Rename this folder to your book title.
+
+Step 4. 
 Make sure your manuscript(s) are saved as .docx files and move them to the docx folder, replacing the Test-chapter.docx file.
 
-Step 5
-Open command line (terminal on Mac)
+Step 5. 
+Open command line (terminal on Mac).
 
-Step 6
+Step 6. 
 Use the command line to navigate to the Resources folder (that you renamed). You will need some knowledge of using the command line, you can find help with this <a
 href="http://en.flossmanuals.net/command-line/getting-started/">here</a>.
 
-Step 7
-Check you have pandoc installed correctly
-do this by typing 'pandoc --version' in command line
+Step 7. 
+Check that you have pandoc installed correctly
+do this by typing 'pandoc --version' in command line.
 
-Step 8
-Create the source file(s) for your ebook by typing 'make markdowns' in command line
+Step 8. 
+Create the source file(s) for your ebook by typing 'make markdowns' in command line.
 
-Step 9
-Now that you have markdown files, you can create an epub! type 'make epub' in command line
+Step 9. 
+Now that you have markdown files, you can create an epub! Type 'make epub' in command line.
 
-Step 10
+Step 10. 
 Check the resources folder to see your book.epub file, which you can open with Calibre or iBooks.
 
 If you get an error message, there is a useful resource section <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">here</a> to help you.
@@ -137,10 +147,14 @@ If you get an error message, there is a useful resource section <a href="http://
 ### Method 2
 
 Here's a quick video of how \*the Sausage Machine\* turns a Word
-document into an ePub:
+document into an epub:
 
-<video poster="./lib/png.png">
-    <source src="lib/samplevid.mp4" type="video/mp4"/>
+<video width="100%" height="80%" controls="controls"
+autoplay="false" loop="loop">
+
+<source src="lib/Sausage-Machine-Demo-epub.mp4" type="video/mp4"
+/>
+
 </video>
 
 Using *the Sausage Machine\* platform 
@@ -149,7 +163,7 @@ Step 1
 Drag and drop your text files <a href="http://hpt.publishinglab.org/">here</a>
 
 Step 2
-Choose an output: markdown, html or ePub from the drop down menu and click 'Update'
+Choose an output: markdown, html or epub from the drop down menu and click 'Update'
 
 Step 3
 Create your book project on GitHub (click 'Continue on GitHub) to keep track of your versions and work collaboratively with an editor or
@@ -157,48 +171,48 @@ designer.
 
 Once you make changes to your source file, make sure to commit your
 changes on GitHub and then sync. After a few minutes \*the Sausage
-Machine\* will generate a new ePub/html file with the latest changes.
+Machine\* will generate a new epub/html file with the latest changes.
 
 <div class="difficulty-level easy"></div>
 
 ### Avoiding Errors
 
-make sure there are no spaces or unusual characters (like %) in file names
+Make sure there are no spaces or unusual characters (like %) in file names
 
-make sure you work with .docx files not .doc
+Make sure you work with .docx files not .doc
 
-put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder except the cover*
+Put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder except the cover*.
 
-*the cover.jpg image belongs in the epub folder
+*The cover.jpg image belongs in the epub folder
 
 
-### Three key things an ePub developer needs to have right
+### Three key things an epub developer needs to have right
 
-A successful ePub has been visually styled (with css and a cover), correctly classified (with metadata), and validated.
+A successful epub has been visually styled (with css and a cover), correctly classified (with metadata), and validated.
 
 The epub folder typically has 3 important components:
 <ul>
-the cover image (png or jpg) 
-stylesheet
-metadata file
+1. the cover image (png or jpg)
+2. stylesheet 
+3. metadata file
 </ul>
 
-The final book needs to have the correct cover image obviously, but you also need to be sure the metadata file has the right information in it so that people can find your book. Talk to the editor to be sure you have the right metadata information, including the epub isbn number.
+The final book needs to have the correct cover image obviously, but you also need to be sure the metadata file has the right information in it so that people can find your book. The editor of the book can provide you with the right metadata information, including the epub isbn number.
 Here's more information about <a href="http://www.publishinglab.nl/blog/2015/09/25/metadata-schmetadata-whats-it-good-for/">metadata</a>.
 
-The look of your book is controlled by the styles, you can get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder.
+The look of your book is controlled by the styles, you might get color values and typeface suggestions from the print designer. Make sure you embed the fonts you use by including them in the make file and in the lib folder.
 Here's more information about <a href="http://www.publishinglab.nl/blog/2015/07/01/epub-typography/">type in epubs</a>.
 
 Last, but not least, the developer needs to validate epub to make sure there are no errors that will cause it to be rejected from a retailer or not open correctly for readers.
 
-### Validating your ePub file
+### Validating your epub file
 
-Make sure you validate the ePub file before you send it out into the
-world. If it isn't valid Google Play Books and other ePub readers may
+Make sure you validate the epub file before you send it out into the
+world. If it isn't valid Google Play Books and other epub readers may
 not be able to open your new book, causing reader frustration!
 
 You can use the <a href="http://validator.idpf.org/">online
-validator</a> for smaller ePubs (under 10MB)
+validator</a> for smaller epubs (under 10MB)
 
 The validator will show you where the errors are in your book. See the example below:
 
@@ -206,16 +220,18 @@ The validator will show you where the errors are in your book. See the example b
 
 The error occurs in chapter ch002.xhtml, line 47, there's an explanation that a 'referenced resource is missing', but it helps a lot to edit the book in <a href="http://calibre-ebook.com/download">Calibre</a> and further diagnose that in this case an image is missing.
 
+![](lib/calibre.png)
+
 Then find the missing image(s) and then fix them in the source (markdown) file. It is important that you make the corrections in the markdown file because then you just do the work once and the changes are made to the epub as well as html or icml files for the print designer.
 
 or install the validator on your Desktop from <a
 href="https://github.com/idpf/epubcheck">GitHub</a>.
 
-The idpf includes a useful wiki to help you understand
+The International Digital Publishing Forum (IDPF) includes a useful wiki to help you understand
 <a
 href="https://github.com/IDPF/epubcheck/wiki/Errors">errors</a>.
 
-when validating your ePub on your desktop, navigate to the folder with
+when validating your epub on your desktop, navigate to the folder with
 the .jar file and copy this in your commandline:
 
 java -jar epubcheck.jar file.epub
@@ -225,7 +241,7 @@ your own epub.)
 
 ### Example
 
-The workflow below is a compilation of efforts from the Hybrid Publishing Toolkit, Andre Castro, Michael Murtaugh and others from the
+The workflow is a compilation of efforts from the Hybrid Publishing Toolkit, Andre Castro, Michael Murtaugh and others from the
 DPT collective.
 
 example: <a
@@ -237,7 +253,7 @@ Print to eBooks: A Hybrid Publishing Toolkit for the Arts</a>
 <a
 href="http://networkcultures.org/digitalpublishing/2014/10/21/hybrid-workflow-how-to-making-automated-workflows-part-2/">Hybrid
 Workflow</a> is a workflow developed to help art publishers create
-digital versions of their publications, focused on an ePub3 output.
+digital versions of their publications, focused on an epub3 output.
 
 <a href="http://hpt.publishinglab.org/index.php?about">The Sausage
 Machine platform</a> is based on Pandoc and designed to complement
@@ -248,11 +264,11 @@ formats and setting up a repository for you.
 href="http://en.flossmanuals.net/command-line/getting-started/"> A
 good resource </a> for getting started with command line.
 
-# Styling Reflowable ePubs 2/4
+# Styling Reflowable epubs 2/4
 
 ## Intro
 
-Once you've created your ePub3 using the Hybrid Publishing Toolkit
+Once you've created your epub3 using the Hybrid Publishing Toolkit
 method \[link to page 1/4\] or \*the Sausage Machine\* <a
 href="http://hpt.publishinglab.org/index.php?about">platform</a>,
 you can add your own style to it. This can be done with some changes to
@@ -264,9 +280,9 @@ PublishingLab template file with test cover.
 
 ### technical considerations
 
-To create and distribute your ePub you will need at least a basic
-knowledge of css and some knowledge of the specifications of the idpf to
-validate your book. Test the ePub on different ereader devices to know
+To create and distribute your epub you will need at least a basic
+knowledge of css and some knowledge of the specifications of the IDPF to
+validate your book. Test the epub on different ereader devices to know
 which features are supported. Note: The control you have with css on
 websites is much more limited in eBooks as of this writing (2016).
 
@@ -286,11 +302,13 @@ open the styles.epub.css with a text editor (like Xcode or Sublime) and copy the
 
 **Remember**
 
-Though you may take time choosing fonts and colors for your ePubs, they
-can and will be changed by the human readers or by the devices.
+Though you may take time choosing fonts and colors for your epubs, they
+can and will be changed by the users or by the devices.
 
 As an example, this is the same book as seen on a mobile phone (Android
 OS with Gitden reader):
+
+![](lib/Screenshot\_Gitden-reader-android.png)
 
 and on a Nook e-reader:
 
@@ -298,7 +316,7 @@ Test the ebook on the device(s) your readers most commonly use, keeping
 in mind that you do not have as much control in the ebook format as you
 do in print or web.
 
-### sources / list of inspiration
+### Sources / list of inspiration
 
 These publications were all created using the Hybrid Publishing method:
 
@@ -308,12 +326,12 @@ href="http://networkcultures.org/publications/#epub">here</a>.
 Knowledge Mile <a
 href="http://www.publishinglab.nl/blog/publication/the-hackable-city-a-research-manifesto-and-design-toolkit/">series</a>
 
-# Fixed Layout ePub 3/4
+# Fixed Layout epub 3/4
 
 ## Intro
 
-A fixed layout epub (FXL) can be described as a hybrid of pdf & ePub;
-combining the design control of a pdf with ePub’s searchability and the
+A fixed layout epub (FXL) can be described as a hybrid of pdf & epub;
+combining the design control of a pdf with epub’s searchability and the
 ability to be sold on Amazon. A main disadvantage is the lack of
 distribution opportunities (meaning not many ereaders will display
 them). The other disadvantage is the format is not responsive - like a
@@ -323,7 +341,7 @@ href="http://www.publishinglab.nl/blog/2015/11/09/fixed-layout-epubs-useful-or-b
 
 ### The pros
 
-Distribution: while you can't currently sell .pdfs, you can sell ePubs
+Distribution: while you can't currently sell .pdfs, you can sell epubs
 in iBookstore and on Amazon
 
 Live text: all written content is searchable (for example, captions over
@@ -333,11 +351,11 @@ Control over page design
 
 Full-bleed images and backgrounds
 
-The cons
+### The cons
 
-Labor intensive: InDD CS5.5 and earlier do not support exporting fixed
+Labor intensive: InDesign CS5.5 and earlier do not support exporting fixed
 layouts, so that means coding it by hand. Each page of a FXL has it's
-own .xhtml file, unlike reflowable ePubs which have one .xhtml per
+own .xhtml file, unlike reflowable epubs which have one .xhtml per
 chapter
 
 Limited distribution opportunities: very few readers support it at the
@@ -359,8 +377,7 @@ The quote above epitomises the Digital Reader article's list of problems
 with fixed layout books. Digital Reader proposes that eBook designers
 should move away from trying to keep the printed book format as a
 template for digital publishing. Craig Mod argues that the bond between
-reader and text can be strengthened or broken by the container, I see
-this as an affirmation that it needs serious consideration by designers
+reader and text can be strengthened or broken by the container. This can be seen as an affirmation that it needs serious consideration by designers
 and developers. He sums up his concern below:
 
 <blockquote>
@@ -377,8 +394,8 @@ To decide whether using fixed layout is right for a project, the
 publisher needs a clear idea of what their reader's devices are - it
 takes too much effort to create a layout that might work well in i-Books
 and not at all on other readers. This problem of limited implementation
-affects fixed layout ePubs as well as reflowable ePubs which often
-support only a very few styling options. The IDPF cautions eBook
+affects fixed layout epubs as well as reflowable epubs which often
+support only a very few styling options. The International Digital Publishing Forum (IDPF) cautions ebook
 developers to be aware that reading systems typically restrict the
 ability to modify body margins indicates this limitation. Which
 essentially means designers are bound by the choices of distributors and
@@ -404,14 +421,14 @@ Fixed layout viewed on iPhone4s
 
 It's obvious that the reading experience is just as difficult on a
 mobile where you have to zoom to read as it is reading pdfs. Another
-difference between fixed and reflowable ePubs is shown below, see that
+difference between fixed and reflowable epubs is shown below, see that
 there are 3 pages in this book - and 3 corresponding xhtml files,
 imagine if it had been 130 pages.
 
 ### Examples
 
 Now that you've seen the rough-and ready test, here is an exciting
-example of a hand-coded ePub3, <a
+example of a hand-coded epub3, <a
 href="https://vimeo.com/25185473">Kadath</a>, by Walrus Studio,
 which includes columns and an interactive map. This book is really
 inspiring, but it's also custom-made - requiring a skilled developer and
@@ -419,7 +436,7 @@ robust budget.
 
 ### Additional Reading
 
-For a really clear distinction between ePubs, PDFs and Apps see this
+For a really clear distinction between epubs, PDFs and Apps see this
 excellent article from Indesignsecrets
 
 epubsecrets provides more in-depth information on exporting fixed layout epubs from InDesign <a href="http://epubsecrets.com/adobes-new-fxl-export.php">here</a>.
@@ -428,11 +445,11 @@ epubsecrets provides more in-depth information on exporting fixed layout epubs f
 
 ## Intro
 
-eBooks come in many forms, from native Apps to online reading
+ebooks come in many forms, from native Apps to online reading
 experiences that cross-over to print with the use of MediaWiki and the
 newly developed htmltoprint workflow. The PublishingLab has spent part
 of 2015 working on a custom App and an online reading reading
-experience. Unlike creating ePubs, which can be done with the help of
+experience. Unlike creating epubs, which can be done with the help of
 Pandoc, both of these workflows required skilled developers.
 
 
@@ -451,7 +468,7 @@ The team created a custom menu for the book:
 
 ![](lib/menu-UNStudio.jpg)
 
-With rich media eBooks like this, it is possible to include more
+With rich media ebooks like this, it is possible to include more
 interactive features. This chapter starts with a video scroll
 introduction that the user controls by swiping down on the app.
 
@@ -461,8 +478,11 @@ Since this App was specifically designed for an iPad, it could
 capitalise on the built-in functions of the iPad, like swiping to the
 next chapter.
 
-<video poster="./lib/png.png">
-<source src="lib/samplevid.mp4" type="video/mp4" />
+<video width="100%" height="80%" controls="controls"
+autoplay="autoplay" loop="loop">
+
+<source src="lib/video-app-transition.mp4" type="video/mp4" />
+
 </video>
 
 Format: Web App
@@ -475,7 +495,7 @@ Navigating Theory on Demand: an online reading experience of TOD17 GrayZones
 
 PublishingLab collaborated with the Institute of Network Cultures to create a web platform for reading
 the latest Theory on Demand publication. 
-The previous outputs for Theory on Demand has been print on demand and ePub formats, but the team saw an opportunity to improve the accessibility of the content and navigation design in html.
+The previous outputs for Theory on Demand has been print on demand and epub formats, but the team saw an opportunity to improve the accessibility of the content and navigation design in html.
 
 Their site layout included a Table of Contents and expandable tools panel.
 
@@ -488,7 +508,7 @@ They incorporated various functions to make it easier to search, highlight and c
 Read more about the project <a
 href="http://www.publishinglab.nl/navigating-tod/">here</a>.
 
-Format: Online reading, ePub3 & Print on Demand (POD)
+Format: Online reading, epub3 & Print on Demand (POD)
 
 <div class="difficulty-level expert"></div>
 
@@ -509,10 +529,10 @@ The INC project involved conversion of the manuscript using the HPT workflow to 
 
 PublishingLab spoke to other makers and publishers about their digital publications. This is a short list of makers we found so far...
 
-<a href="http://torquetorque.net/">Torque</a>, a UK based publisher created ePubs as well as developing a speed reading App for
+<a href="http://torquetorque.net/">Torque</a>, a UK based publisher created epubs as well as developing a speed reading App for
 their first book.
 
-Format: App & ePub
+Format: App & epub
 
 <a href="http://hackersanddesigners.nl/#/">Hackers&Designers</a>
 use MediaWiki and <a href="https://latex-project.org/intro.html">LaTeX</a> to create their latest book: About Bugs, Bots and Bytes.
@@ -530,7 +550,7 @@ E-Book</a> is a super-simple online tool with an intuitive visual interface to a
 You can find out more <a
 href="http://networkcultures.org/outofink/2013/02/11/the-peoples-e-book/">here</a>.
 
-Format: Platform & ePub3
+Format: Platform & epub3
 
 Eric Gardner & The Getty
 You can find out more about the extension Gardner is writing to create online books for academic publications <a href="http://egardner.github.io/posts/2015/building-books-with-middleman/">here</a>.
@@ -542,7 +562,7 @@ Format: Static website(s)
 
 What can be done about visual layouts in digital publications? The International Digital Publishing Forum (IDPF) is writing standards, however it is unclear whether these will be viable because the e-reader market is so varied in its adoption of standards.
 
-Some critics claim that ebook development is 15 years behind the web in terms of development and standards being adopted by ereaders. The web has developed faster, in part due to the adoption of common standards between major brosers like Safari, Chrome & Firefox. The variety and lower financial imperative to adhere to and develop standards in ereaders may mean visual publications in ePub format remain limited.
+Some critics claim that ebook development is 15 years behind the web in terms of development and standards being adopted by ereaders. The web has developed faster, in part due to the adoption of common standards between major brosers like Safari, Chrome & Firefox. The variety and lower financial imperative to adhere to and develop standards in ereaders may mean visual publications in epub format remain limited.
 
 With the rise of books online, like Ford's <a href="http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">What is Code</a>, web might be a better format for arts publications than epub.
 
@@ -555,11 +575,11 @@ Adaptive layout <a href="http://sorotokin.com/adaptive-layout/">how-to </a>by So
 Media Queries, which help text display on different devices by linking to a stylesheet relevant to the targeted device's capabilities. <a href="http://www.pigsgourdsandwikis.com/2012/01/media-queries-for-formatting-poetry-on.html">Liz Castro</a> shows how she used media queries to better display poetry across
 devices.
 
-The IDPF brought out a specification for ePub Adaptive Layout <a href="http://www.idpf.org/epub/pgt/">here</a>.
+The International Digital Publishing Forum (IDPF) brought out a specification for epub Adaptive Layout <a href="http://www.idpf.org/epub/pgt/">here</a>.
 
 ### Future
 
-Ideally, artist books could incorporate the interactivity made possible with ePub3 with custom layouts which really reflect the unique visual quality of the work. It's not necessarily about copying the beautiful print spreads of art publishers, or following the highly-customised methods of an App, but looking for ways digital publishing visual books can be improved with the evolving tools avaliable.
+Ideally, artist books could incorporate the interactivity made possible with epub3 with custom layouts which really reflect the unique visual quality of the work. It's not necessarily about copying the beautiful print spreads of art publishers, or following the highly-customised methods of an App, but looking for ways digital publishing visual books can be improved with the evolving tools avaliable.
 
 <blockquote>
 "With a proper API (an application programming interface, which allows
