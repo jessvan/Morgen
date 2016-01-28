@@ -26,7 +26,7 @@ Rights: CC BY-NC 4.0
 
 What are the visual options for artistic digital publications?
 
-### What can you find in this How To?
+### What Can You Find in This How To?
 
 This How To shows you how to create an epub - it is part of the Hybrid Publishing Workflow for creating multiple publications from one source file. For more information about the Workflow and creating output for print files, visit the PublishingLab <a href="http://www.publishinglab.nl/resources/hybrid-publishing-workflow-faq/">site</a>.
 
@@ -34,7 +34,7 @@ You will find instructions and a template for making an epub3, how to use css st
 layout epub. Finally, we look at what some other current options are for
 digital publishing.
 
-### Difficulty level
+### Difficulty Level
 
 Each How To will indicate a difficulty level: easy, moderate or expert to show you if you can do it yourself or if you need expert support.
 
@@ -79,7 +79,7 @@ GitHub. You can find it <a
 href="http://hpt.publishinglab.org/">here</a>.
 
 <div class="infobox">
-### Technical considerations
+### Technical Considerations
 
 Before you begin you will need:
 
@@ -103,7 +103,7 @@ more <a
 href="http://www.computerhope.com/issues/chusedos.htm">here</a>)
 </div>
 
-## How: Instructions for Creating an epub
+## How: Instructions for Creating an Epub
 
 ### Method 1
 
@@ -154,8 +154,7 @@ If you get an error message, there is a useful resource section <a href="http://
 
 ### Method 2
 
-Here's a quick video of how *the Sausage Machine* turns a Word
-document into an epub:
+Here's a quick video of how the Sausage Machine turns a Word document (docx) into an epub:
 
 <video width="100%" height="80%" controls="controls"
 autoplay="autoplay" loop="loop">
@@ -191,7 +190,7 @@ Put any images (.jpg or .png) in the 'imgs' folder inside the markdown folder ex
 *The cover.jpg image belongs in the epub folder
 
 
-### Three key things an epub developer needs to have right
+### Three Key Things an Epub Developer Needs to Get Right
 
 A successful epub has been visually styled (with css and a cover), correctly classified (with metadata), and validated.
 
@@ -210,7 +209,7 @@ Here's more information about <a href="http://www.publishinglab.nl/blog/2015/07/
 
 Last, but not least, the developer needs to validate epub to make sure there are no errors that will cause it to be rejected from a retailer or not open correctly for readers.
 
-### Validating your epub file
+### Validating Your Epub File
 
 Make sure you validate the epub file before you send it out into the
 world. If it isn't valid Google Play Books and other epub readers may
@@ -269,7 +268,7 @@ formats and setting up a repository for you.
 href="http://en.flossmanuals.net/command-line/getting-started/"> A
 good resource </a> for getting started with command line.
 
-# Styling Reflowable epubs 2/4
+# Styling Reflowable Epubs 2/4
 
 ## Intro
 
@@ -284,7 +283,7 @@ the markdown file and mostly through the css stylesheet.
 PublishingLab template file with test cover.
 
 <div class="infobox">
-### technical considerations
+### Technical Considerations
 
 To create and distribute your epub you will need at least a basic
 knowledge of css and some knowledge of the specifications of the IDPF to
@@ -346,7 +345,7 @@ them). The other disadvantage is the format is not responsive - like a
 examples <a
 href="http://www.publishinglab.nl/blog/2015/11/09/fixed-layout-epubs-useful-or-backward/">here</a>.
 
-### The pros
+### The Pros
 
 Distribution: while you can't currently sell .pdfs, you can sell epubs
 in iBookstore and on Amazon
@@ -358,7 +357,7 @@ Control over page design
 
 Full-bleed images and backgrounds
 
-### The cons
+### The Cons
 
 Labor intensive: InDesign CS5.5 and earlier do not support exporting fixed
 layouts, so that means coding it by hand. Each page of a FXL has it's
@@ -371,7 +370,7 @@ design 2 layouts (i.e. a tweaked version for Kobo)
 
 The format doesn't scale for mobile reading.
 
-### The controversy
+### The Controversy
 
 <blockquote>
 
@@ -410,7 +409,7 @@ e-reader makers.
 
 As epubsecrets caution: FXL epubs will not work at all on any Kindle devices and conversion to the KF8-FXL format will be difficult.
 
-### The experiment(s)
+### The Experiment(s)
 
 To demonstrate, I created a fixed layout epub in InDD CC 2015. It didn't
 take much time to file > export fixed layout, and the pros are that
@@ -520,7 +519,7 @@ Format: Online reading, epub3 & Print on Demand (POD)
 <div class="difficulty-level expert"></div>
 
 <div class="infobox">
-### technical considerations
+### Technical Considerations
 
 The UNStudio App project was built as a WebApp and then bundled as a native App for IOS with the client specifying that it be designed for one platform: the iPad.
 
@@ -533,7 +532,7 @@ The UNStudio App was built with html, css and javascript by a team of 4 interns 
 
 The INC project involved conversion of the manuscript using the HPT workflow to create html files from the Word documents. From there the team used javascript and plugins to build custom functions with some support from a developer.
 
-### sources / list of inspiration
+### Sources / List of inspiration
 
 PublishingLab spoke to other makers and publishers about their digital publications. This is a short list of makers we found so far...
 
@@ -566,7 +565,7 @@ You can find out more about the extension Gardner is writing to create online bo
 Format: Static website(s)
 
 
-### The other possibilities...
+### The Other Possibilities...
 
 What can be done about visual layouts in digital publications? The International Digital Publishing Forum (IDPF) is writing standards, however it is unclear whether these will be viable because the e-reader market is so varied in its adoption of standards.
 
